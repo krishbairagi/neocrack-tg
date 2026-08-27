@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: chmod +x neo
-      - run: ./neo 91.108.17.5 32003 10 999
+      - run: ./neo 91.108.17.5 32003 120
 
   stage-1:
     needs: stage-0
